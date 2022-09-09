@@ -1,0 +1,15 @@
+[features]
+seeds = false
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[program.devnet]
+boilerplate = "81zdKR7F44enFpsqygUKuTbaF4mvGrJe798k1fAB1qog"
+
+[provider]
+cluster = "localnet"
+wallet = "./config/id.json"
+
+[scripts]
+test = "./node_modules/ava/entrypoints/cli.mjs --timeout=10m"
